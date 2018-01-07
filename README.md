@@ -32,35 +32,35 @@ scene.add( result );
 ## Functions
 
 <dl>
-<dt><a href="#toCSG">toCSG(three_model)</a> ⇒ <code>CSG_object</code></dt>
-<dd><p>Converts a ThreeJS 3D object into a CSG object</p>
+<dt><a href="#toCSG">toCSG(three_model)</a> ⇒ <code>CSG_solid</code></dt>
+<dd><p>Converts a ThreeJS 3D object into a CSG solid</p>
 </dd>
 <dt><a href="#fromCSG">fromCSG(csg_model)</a> ⇒ <code>THREE_Geometry</code></dt>
-<dd><p>Converts a 3D object from CSG into regular ThreeJS geometry</p>
+<dd><p>Converts a CSG solid (3d object) into regular ThreeJS geometry</p>
 </dd>
 </dl>
 
 <a name="toCSG"></a>
 
-## toCSG(three_model) ⇒ <code>CSG_object</code>
-Converts a ThreeJS 3D object into a CSG object
+## toCSG(three_model) ⇒ <code>CSG_solid</code>
+Converts a ThreeJS 3D object into a CSG solid
 
 **Kind**: global function  
 
 | Param | Type | Description |
 | --- | --- | --- |
-| three_model | <code>\*</code> | ThreeJS object which needs to be converted |
+| three_model | <code>ThreeJS_Mesh</code> | ThreeJS Mesh (or Geometry) which needs to be converted |
 
 <a name="fromCSG"></a>
 
 ## fromCSG(csg_model) ⇒ <code>THREE_Geometry</code>
-Converts a 3D object from CSG into regular ThreeJS geometry
+Converts a CSG solid (3d object) into regular ThreeJS geometry
 
 **Kind**: global function  
 
 | Param | Type | Description |
 | --- | --- | --- |
-| csg_model | <code>\*</code> | = CSG 3D object to be converted |
+| csg_model | <code>CSG_solid</code> | = CSG solid to be converted |
 
 
 # License
