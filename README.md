@@ -5,6 +5,10 @@ CSG objects created by this converter can then be manipulated via [@jscad/csg](h
 
 This solution is based on  [ThreeCSG.js converter](https://gist.github.com/chandlerprall/1590424) by [Chandler Prall](https://github.com/chandlerprall).
 
+## Installation
+
+`npm i three-2-csg`;
+
 # Example
 The following example is based on a [Stack overflow example](https://stackoverflow.com/questions/24716145/create-a-unique-sphere-geometry-from-a-sphere-and-a-cylinder-three-js#24720819) by [4m1r](https://stackoverflow.com/users/2296997/4m1r):
 ```javascript

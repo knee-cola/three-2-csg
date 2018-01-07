@@ -1,6 +1,6 @@
 {
   "name": "three-2-csg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "converts ThreeJS object into CSG and back",
   "main": "./lib/three-2-csg.js",
   "scripts": {
