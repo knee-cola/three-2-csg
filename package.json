@@ -1,0 +1,23 @@
+{
+  "name": "three-2-csg",
+  "version": "1.0.0",
+  "description": "converts ThreeJS object into CSG and back",
+  "main": "./lib/three-2-csg.js",
+  "scripts": {
+    "doc": "jsdoc2md --template ./README.hbs ./lib/three-2-csg.js > README.md",
+    "deploy2npm": "npm run doc && npm run prod && npm publish"
+  },
+  "keywords": [
+    "ThreeJS",
+    "CSG",
+    "converter"
+  ],
+  "author": "knee-cola",
+  "license": "MIT",
+  "dependencies": {
+    "@jscad/csg": "^0.4.0"
+  },
+  "devDependencies": {
+    "jsdoc-to-markdown": "^3.0.3"
+  }
+}
